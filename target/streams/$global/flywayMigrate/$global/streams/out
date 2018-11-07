@@ -1,0 +1,22 @@
+[info] Database: jdbc:mysql://localhost:3306/beacon?autoReconnect=true&useSSL=false&useSSL=false&serverTimezone=JST (MySQL 5.7)
+[debug] Scanning for SQL callbacks ...
+[debug] Scanning for filesystem resources at 'conf/db/migration/default/common' (Prefix: '', Suffix: '.sql')
+[debug] Scanning for resources in path: conf\db\migration\default\common (conf/db/migration/default/common)
+[debug] Scanning for filesystem resources at 'conf/db/migration/default/mysql' (Prefix: '', Suffix: '.sql')
+[debug] Scanning for resources in path: conf\db\migration\default\mysql (conf/db/migration/default/mysql)
+[debug] Found filesystem resource: conf\db\migration\default\mysql\V1__Create_Beacon.sql
+[debug] Validating migrations ...
+[debug] Scanning for filesystem resources at 'conf/db/migration/default/common' (Prefix: 'V', Suffix: '.sql')
+[debug] Scanning for resources in path: conf\db\migration\default\common (conf/db/migration/default/common)
+[debug] Scanning for filesystem resources at 'conf/db/migration/default/common' (Prefix: 'R', Suffix: '.sql')
+[debug] Scanning for resources in path: conf\db\migration\default\common (conf/db/migration/default/common)
+[debug] Scanning for filesystem resources at 'conf/db/migration/default/mysql' (Prefix: 'V', Suffix: '.sql')
+[debug] Scanning for resources in path: conf\db\migration\default\mysql (conf/db/migration/default/mysql)
+[debug] Found filesystem resource: conf\db\migration\default\mysql\V1__Create_Beacon.sql
+[debug] Scanning for filesystem resources at 'conf/db/migration/default/mysql' (Prefix: 'R', Suffix: '.sql')
+[debug] Scanning for resources in path: conf\db\migration\default\mysql (conf/db/migration/default/mysql)
+[debug] Filtering out resource: conf\db\migration\default\mysql\V1__Create_Beacon.sql (filename: V1__Create_Beacon.sql)
+[info] Successfully validated 1 migration (execution time 00:00.011s)
+[debug] Schema `beacon` already exists. Skipping schema creation.
+[info] Current version of schema `beacon`: 1
+[info] Schema `beacon` is up to date. No migration necessary.

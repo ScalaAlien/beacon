@@ -16,7 +16,7 @@
 [debug] Scanning for filesystem resources at 'conf/db/migration/default/mysql' (Prefix: 'R', Suffix: '.sql')
 [debug] Scanning for resources in path: conf\db\migration\default\mysql (conf/db/migration/default/mysql)
 [debug] Filtering out resource: conf\db\migration\default\mysql\V1__Create_Beacon.sql (filename: V1__Create_Beacon.sql)
-[info] Successfully validated 1 migration (execution time 00:00.011s)
+[info] Successfully validated 1 migration (execution time 00:00.013s)
 [debug] Schema `beacon` already exists. Skipping schema creation.
 [info] Current version of schema `beacon`: 1
 [info] Schema `beacon` is up to date. No migration necessary.

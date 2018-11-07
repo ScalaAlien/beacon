@@ -4,7 +4,7 @@
 		module="beacon_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181108075338"
+		publication="20181108080832"
 	>
 		<description>
 		beacon
@@ -49,6 +49,6 @@
 		<dependency org="org.scalikejdbc" name="scalikejdbc-syntax-support-macro_2.12" rev="3.2.3" conf="compile->default(compile)"/>
 		<dependency org="org.scalikejdbc" name="scalikejdbc-test_2.12" rev="3.2.3" conf="test->default(compile)"/>
 		<dependency org="org.skinny-framework" name="skinny-orm_2.12" rev="2.3.7" conf="compile->default(compile)"/>
-		<dependency org="com.github.scopt" name="scopt_2.12" rev="latest.integration" conf="compile->default(compile)"/>
+		<dependency org="com.github.scopt" name="scopt_2.12" rev="3.6.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

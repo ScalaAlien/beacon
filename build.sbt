@@ -23,7 +23,7 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc"        %% "scalikejdbc-syntax-support-macro"% "3.2.3",
   "org.scalikejdbc"        %% "scalikejdbc-test"                % "3.2.3" % Test,
   "org.skinny-framework"   %% "skinny-orm"                      % "2.3.7",
-  "com.github.scopt"       %% "scopt"                           % "latest.integration"
+  "com.github.scopt"       %% "scopt"                           % "3.6.0"
 )
 
 lazy val envConfig = settingKey[Config]("env-config")
